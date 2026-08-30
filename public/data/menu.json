@@ -2329,23 +2329,6 @@
           "order": 4
         },
         {
-          "id": "p-35bm55",
-          "name": {
-            "ar": "فنكر كوكيز",
-            "en": "Cookies Finger"
-          },
-          "description": {
-            "ar": "",
-            "en": ""
-          },
-          "price": 0,
-          "image": "",
-          "category": "cat-uk3pyv",
-          "available": true,
-          "extras": [],
-          "order": 5
-        },
-        {
           "id": "p-4sh96i",
           "name": {
             "ar": "دونات",
