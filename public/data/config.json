@@ -1,0 +1,41 @@
+{
+  "name": {
+    "ar": "ريلود كافيه",
+    "en": "RELOAD CAFÉ"
+  },
+  "tagline": {
+    "ar": "حـَدث مزاجك",
+    "en": "Reload Your Mood"
+  },
+  "brandPhrase": "RECHARGE • REFRESH • RELOAD",
+  "logo": "/images/cropped_circle_image-1787390421-1788085869.webp",
+  "whatsapp": "9647716735393",
+  "phone": "0771 673 5393",
+  "locationUrl": "https://maps.app.goo.gl/SjF4vCfhTWRfb1QBA?g_st=ic",
+  "instagram": "https://instagram.com/reload.caffe",
+  "instagramHandle": "@reload.caffe",
+  "address": {
+    "ar": "كربلاء - مقابل مستشفى الحسيني",
+    "en": "Karbala - Opposite Al-Husseini Hospital"
+  },
+  "about": {
+    "headlineEn": "Where Coffee Meets Energy",
+    "descAr": "قهوة مختصة - حلويات فاخرة - مشروبات مميزة",
+    "descEn": "Specialty coffee - Fine desserts - Signature drinks"
+  },
+  "hours": {
+    "ar": "7:00 صباحاً إلى 02:00 صباحاً",
+    "en": "7:00 AM to 02:00 AM"
+  },
+  "currency": {
+    "ar": "د.ع",
+    "en": "IQD"
+  },
+  "colors": {
+    "cream": "#F6F1E7",
+    "beige": "#E8DFCC",
+    "olive": "#6B7247",
+    "darkOlive": "#3C4127",
+    "espresso": "#2A2019"
+  }
+}

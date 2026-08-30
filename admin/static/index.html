@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>RELOAD CAFÉ — Local Admin</title>
+    <style>
+      :root {
+        --cream: #f6f1e7;
+        --beige: #e8dfcc;
+        --olive: #6b7247;
+        --dark: #3c4127;
+        --esp: #2a2019;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: system-ui, "Segoe UI", Tahoma, sans-serif;
+        background: var(--cream);
+        color: var(--esp);
+      }
+      header {
+        background: var(--esp);
+        color: var(--cream);
+        padding: 14px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      header b { letter-spacing: 0.2em; }
+      main { max-width: 960px; margin: 0 auto; padding: 20px; }
+      .tabs { display: flex; gap: 8px; margin-bottom: 18px; }
+      .tabs button {
+        border: 1px solid var(--beige);
+        background: #fff;
+        padding: 8px 16px;
+        border-radius: 999px;
+        cursor: pointer;
+      }
+      .tabs button.on { background: var(--olive); color: #fff; border-color: var(--olive); }
+      .card {
+        background: #fff;
+        border: 1px solid var(--beige);
+        border-radius: 14px;
+        padding: 14px;
+        margin-bottom: 14px;
+        box-shadow: 0 6px 18px -14px #000;
+      }
+      .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+      input, textarea, select {
+        padding: 8px 10px;
+        border: 1px solid var(--beige);
+        border-radius: 9px;
+        font: inherit;
+        background: #fff;
+        min-width: 0;
+      }
+      .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+      button.act {
+        background: var(--olive);
+        color: #fff;
+        border: 0;
+        padding: 9px 16px;
+        border-radius: 9px;
+        cursor: pointer;
+      }
+      button.ghost { background: #fff; border: 1px solid var(--beige); color: var(--esp); }
+      button.del { background: #8b3a2f; }
+      img.thumb { width: 62px; height: 62px; object-fit: cover; border-radius: 9px; }
+      label small { display: block; color: #6b6257; font-size: 11px; margin-bottom: 3px; }
+      .prod { border-top: 1px dashed var(--beige); padding-top: 12px; margin-top: 12px; }
+      #toast {
+        position: fixed; inset-inline-end: 16px; bottom: 16px; background: var(--dark);
+        color: #fff; padding: 10px 16px; border-radius: 9px; opacity: 0; transition: 0.2s;
+      }
+      #toast.on { opacity: 1; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <b>RELOAD CAFÉ — LOCAL ADMIN</b>
+      <span><button class="act" onclick="saveAll()">حفظ الكل / Save all</button></span>
+    </header>
+    <main>
+      <div class="tabs">
+        <button id="tab-menu" class="on" onclick="show('menu')">القائمة / Menu</button>
+        <button id="tab-config" onclick="show('config')">الإعدادات / Config</button>
+      </div>
+
+      <section id="view-menu">
+        <button class="act" onclick="addCategory()">+ إضافة قسم / Add category</button>
+        <div id="cats" style="margin-top: 14px"></div>
+      </section>
+
+      <section id="view-config" hidden>
+        <div class="card" id="configForm"></div>
+      </section>
+    </main>
+    <div id="toast"></div>
+
+    <script>
+      const API = "";
+      let menu = { categories: [] };
+      let config = {};
+
+      const uid = (p) => p + "-" + Math.random().toString(36).slice(2, 8);
+      const toast = (m) => {
+        const t = document.getElementById("toast");
+        t.textContent = m;
+        t.classList.add("on");
+        setTimeout(() => t.classList.remove("on"), 1800);
+      };
+
+      function show(v) {
+        document.getElementById("view-menu").hidden = v !== "menu";
+        document.getElementById("view-config").hidden = v !== "config";
+        document.getElementById("tab-menu").classList.toggle("on", v === "menu");
+        document.getElementById("tab-config").classList.toggle("on", v === "config");
+      }
+
+      async function load() {
+        menu = await (await fetch(API + "/api/menu")).json();
+        config = await (await fetch(API + "/api/config")).json();
+        renderMenu();
+        renderConfig();
+      }
+
+      function addCategory() {
+        menu.categories.push({
+          id: uid("cat"),
+          name: { ar: "قسم جديد", en: "New category" },
+          order: menu.categories.length,
+          image: "",
+          products: [],
+        });
+        renderMenu();
+      }
+
+      function addProduct(ci) {
+        const cat = menu.categories[ci];
+        cat.products.push({
+          id: uid("p"),
+          name: { ar: "", en: "" },
+          description: { ar: "", en: "" },
+          price: 0,
+          image: "",
+          category: cat.id,
+          available: true,
+          extras: [],
+          order: cat.products.length,
+        });
+        renderMenu();
+      }
+
+      function move(arr, i, d) {
+        const j = i + d;
+        if (j < 0 || j >= arr.length) return;
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+        arr.forEach((x, k) => (x.order = k));
+        renderMenu();
+      }
+
+      async function uploadImage(ci, pi, input) {
+        const file = input.files[0];
+        if (!file) return;
+        const fd = new FormData();
+        fd.append("file", file);
+        const res = await fetch(API + "/api/upload", { method: "POST", body: fd });
+        const json = await res.json();
+        menu.categories[ci].products[pi].image = json.path;
+        await saveMenu();
+        renderMenu();
+      }
+
+      async function deleteImage(ci, pi) {
+        const p = menu.categories[ci].products[pi];
+        if (p.image) {
+          const name = p.image.split("/").pop();
+          await fetch(API + "/api/images/" + name, { method: "DELETE" }).catch(() => {});
+        }
+        p.image = "";
+        renderMenu();
+      }
+
+      async function uploadCategoryImage(ci, input) {
+        const file = input.files[0];
+        if (!file) return;
+        const cat = menu.categories[ci];
+        const previous = cat.image;
+        const fd = new FormData();
+        fd.append("file", file);
+        fd.append("folder", "categories");
+        const res = await fetch(API + "/api/upload", { method: "POST", body: fd });
+        const json = await res.json();
+        cat.image = json.path;
+        if (previous && previous !== cat.image && previous.includes("/images/categories/")) {
+          await fetch(API + "/api/images/" + previous.split("/").pop() + "?folder=categories", {
+            method: "DELETE",
+          }).catch(() => {});
+        }
+        await saveMenu();
+        renderMenu();
+        toast("تم حفظ صورة القسم ✓");
+      }
+
+      async function deleteCategoryImage(ci) {
+        const cat = menu.categories[ci];
+        if (cat.image && cat.image.includes("/images/categories/")) {
+          await fetch(API + "/api/images/" + cat.image.split("/").pop() + "?folder=categories", {
+            method: "DELETE",
+          }).catch(() => {});
+        }
+        cat.image = "";
+        await saveMenu();
+        renderMenu();
+        toast("تم حذف صورة القسم ✓");
+      }
+
+      function bind(obj, path, el, num) {
+        el.addEventListener("input", () => {
+          const keys = path.split(".");
+          let t = obj;
+          while (keys.length > 1) t = t[keys.shift()];
+          t[keys[0]] = num ? Number(el.value || 0) : el.type === "checkbox" ? el.checked : el.value;
+        });
+      }
+
+      function field(label, value, oninput, type = "text") {
+        const wrap = document.createElement("label");
+        wrap.innerHTML = `<small>${label}</small>`;
+        const el = document.createElement(type === "textarea" ? "textarea" : "input");
+        if (type !== "textarea") el.type = type;
+        if (type === "checkbox") el.checked = !!value;
+        else el.value = value ?? "";
+        el.style.width = "100%";
+        el.addEventListener("input", () =>
+          oninput(type === "checkbox" ? el.checked : type === "number" ? Number(el.value || 0) : el.value),
+        );
+        el.addEventListener("change", () =>
+          oninput(type === "checkbox" ? el.checked : type === "number" ? Number(el.value || 0) : el.value),
+        );
+        wrap.appendChild(el);
+        return wrap;
+      }
+
+      function renderMenu() {
+        const host = document.getElementById("cats");
+        host.innerHTML = "";
+        menu.categories.forEach((cat, ci) => {
+          const card = document.createElement("div");
+          card.className = "card";
+          const head = document.createElement("div");
+          head.className = "grid2";
+          head.append(
+            field("اسم القسم (عربي)", cat.name.ar, (v) => (cat.name.ar = v)),
+            field("Category name (EN)", cat.name.en, (v) => (cat.name.en = v)),
+          );
+          card.appendChild(head);
+
+          const bar = document.createElement("div");
+          bar.className = "row";
+          bar.style.marginTop = "10px";
+          bar.innerHTML = `
+            <button class="act ghost" data-a="up">▲</button>
+            <button class="act ghost" data-a="down">▼</button>
+            <button class="act" data-a="add">+ منتج / Product</button>
+            <button class="act del" data-a="del">حذف القسم</button>`;
+          bar.querySelector('[data-a="up"]').onclick = () => move(menu.categories, ci, -1);
+          bar.querySelector('[data-a="down"]').onclick = () => move(menu.categories, ci, 1);
+          bar.querySelector('[data-a="add"]').onclick = () => addProduct(ci);
+          bar.querySelector('[data-a="del"]').onclick = () => {
+            if (confirm("حذف القسم وكل منتجاته؟")) {
+              menu.categories.splice(ci, 1);
+              renderMenu();
+            }
+          };
+          card.appendChild(bar);
+
+          const catImg = document.createElement("div");
+          catImg.className = "row";
+          catImg.style.marginTop = "10px";
+          catImg.innerHTML = cat.image
+            ? `<img class="thumb" src="${cat.image}" alt=""><small>${cat.image}</small>`
+            : `<small>لا توجد صورة للقسم / No category image</small>`;
+          const catFile = document.createElement("input");
+          catFile.type = "file";
+          catFile.accept = "image/*";
+          catFile.onchange = () => uploadCategoryImage(ci, catFile);
+          catImg.appendChild(catFile);
+          if (cat.image) {
+            const rmCat = document.createElement("button");
+            rmCat.className = "act del";
+            rmCat.textContent = "حذف صورة القسم";
+            rmCat.onclick = () => deleteCategoryImage(ci);
+            catImg.appendChild(rmCat);
+          }
+          card.appendChild(catImg);
+
+          cat.products.forEach((p, pi) => {
+            p.category = cat.id;
+            const box = document.createElement("div");
+            box.className = "prod";
+            const g = document.createElement("div");
+            g.className = "grid2";
+            g.append(
+              field("الاسم (عربي)", p.name.ar, (v) => (p.name.ar = v)),
+              field("Name (EN)", p.name.en, (v) => (p.name.en = v)),
+              field("الوصف (عربي)", p.description?.ar, (v) => ((p.description ||= { ar: "", en: "" }).ar = v), "textarea"),
+              field("Description (EN)", p.description?.en, (v) => ((p.description ||= { ar: "", en: "" }).en = v), "textarea"),
+              field("السعر / Price (IQD)", p.price, (v) => (p.price = v), "number"),
+              field("متوفر / Available", p.available, (v) => (p.available = v), "checkbox"),
+            );
+            box.appendChild(g);
+
+            const imgRow = document.createElement("div");
+            imgRow.className = "row";
+            imgRow.style.marginTop = "8px";
+            imgRow.innerHTML = p.image ? `<img class="thumb" src="${p.image}" alt="">` : "";
+            const file = document.createElement("input");
+            file.type = "file";
+            file.accept = "image/*";
+            file.onchange = () => uploadImage(ci, pi, file);
+            imgRow.appendChild(file);
+            const rm = document.createElement("button");
+            rm.className = "act del";
+            rm.textContent = "حذف الصورة";
+            rm.onclick = () => deleteImage(ci, pi);
+            imgRow.appendChild(rm);
+            box.appendChild(imgRow);
+
+            const ctrl = document.createElement("div");
+            ctrl.className = "row";
+            ctrl.style.marginTop = "8px";
+            ctrl.innerHTML = `
+              <button class="act ghost" data-a="up">▲</button>
+              <button class="act ghost" data-a="down">▼</button>
+              <button class="act ghost" data-a="extra">+ إضافة اختيارية / Extra</button>
+              <button class="act del" data-a="del">حذف المنتج</button>`;
+            ctrl.querySelector('[data-a="up"]').onclick = () => move(cat.products, pi, -1);
+            ctrl.querySelector('[data-a="down"]').onclick = () => move(cat.products, pi, 1);
+            ctrl.querySelector('[data-a="extra"]').onclick = () => {
+              (p.extras ||= []).push({ id: uid("x"), name: { ar: "", en: "" }, price: 0 });
+              renderMenu();
+            };
+            ctrl.querySelector('[data-a="del"]').onclick = () => {
+              cat.products.splice(pi, 1);
+              renderMenu();
+            };
+            box.appendChild(ctrl);
+
+            (p.extras || []).forEach((x, xi) => {
+              const er = document.createElement("div");
+              er.className = "row";
+              er.style.marginTop = "6px";
+              er.append(
+                field("إضافة (عربي)", x.name.ar, (v) => (x.name.ar = v)),
+                field("Extra (EN)", x.name.en, (v) => (x.name.en = v)),
+                field("سعر / Price", x.price, (v) => (x.price = v), "number"),
+              );
+              const d = document.createElement("button");
+              d.className = "act del";
+              d.textContent = "×";
+              d.onclick = () => {
+                p.extras.splice(xi, 1);
+                renderMenu();
+              };
+              er.appendChild(d);
+              box.appendChild(er);
+            });
+
+            card.appendChild(box);
+          });
+
+          host.appendChild(card);
+        });
+      }
+
+      function renderConfig() {
+        const host = document.getElementById("configForm");
+        host.innerHTML = "";
+        const g = document.createElement("div");
+        g.className = "grid2";
+        g.append(
+          field("اسم المطعم (عربي)", config.name?.ar, (v) => (config.name.ar = v)),
+          field("Name (EN)", config.name?.en, (v) => (config.name.en = v)),
+          field("الشعار / Tagline (AR)", config.tagline?.ar, (v) => (config.tagline.ar = v)),
+          field("Tagline (EN)", config.tagline?.en, (v) => (config.tagline.en = v)),
+          field("Brand phrase", config.brandPhrase, (v) => (config.brandPhrase = v)),
+          field("مسار اللوغو / Logo path", config.logo, (v) => (config.logo = v)),
+          field("رقم واتساب / WhatsApp", config.whatsapp, (v) => (config.whatsapp = v)),
+          field("الهاتف / Phone", config.phone, (v) => (config.phone = v)),
+          field("رابط الموقع / Location URL", config.locationUrl, (v) => (config.locationUrl = v)),
+          field("Instagram URL", config.instagram, (v) => (config.instagram = v)),
+          field("Instagram handle", config.instagramHandle, (v) => (config.instagramHandle = v)),
+          field("العنوان (عربي)", config.address?.ar, (v) => (config.address.ar = v)),
+          field("Address (EN)", config.address?.en, (v) => (config.address.en = v)),
+          field("الدوام (عربي)", config.hours?.ar, (v) => (config.hours.ar = v)),
+          field("Hours (EN)", config.hours?.en, (v) => (config.hours.en = v)),
+          field("Headline (EN)", config.about?.headlineEn, (v) => (config.about.headlineEn = v)),
+          field("وصف (عربي)", config.about?.descAr, (v) => (config.about.descAr = v)),
+          field("Description (EN)", config.about?.descEn, (v) => (config.about.descEn = v)),
+        );
+        host.appendChild(g);
+
+        const colors = document.createElement("div");
+        colors.className = "grid2";
+        colors.style.marginTop = "10px";
+        Object.keys(config.colors || {}).forEach((k) =>
+          colors.appendChild(field("لون / color: " + k, config.colors[k], (v) => (config.colors[k] = v))),
+        );
+        host.appendChild(colors);
+
+        const logoRow = document.createElement("div");
+        logoRow.className = "row";
+        logoRow.style.marginTop = "10px";
+        const f = document.createElement("input");
+        f.type = "file";
+        f.accept = "image/*";
+        f.onchange = async () => {
+          const fd = new FormData();
+          fd.append("file", f.files[0]);
+          const j = await (await fetch(API + "/api/upload", { method: "POST", body: fd })).json();
+          config.logo = j.path;
+          await saveConfig();
+          renderConfig();
+        };
+        const lbl = document.createElement("small");
+        lbl.textContent = "رفع اللوغو / Upload logo";
+        logoRow.append(lbl, f);
+        host.appendChild(logoRow);
+      }
+
+      async function saveMenu() {
+        await fetch(API + "/api/menu", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify(menu),
+        });
+      }
+      async function saveConfig() {
+        await fetch(API + "/api/config", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify(config),
+        });
+      }
+      async function saveAll() {
+        await saveMenu();
+        await saveConfig();
+        toast("تم الحفظ في ملفات المشروع ✓");
+      }
+
+      load();
+    </script>
+  </body>
+</html>

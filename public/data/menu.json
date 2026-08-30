@@ -1,0 +1,3059 @@
+{
+  "categories": [
+    {
+      "id": "cat-7d0cjw",
+      "name": {
+        "ar": "المشروبات الساخنة",
+        "en": "Hot Drinks"
+      },
+      "order": 0,
+      "image": "/images/categories/photo_2026-08-30_19-19-27-1788106820.webp",
+      "products": [
+        {
+          "id": "p-r2hugm",
+          "name": {
+            "ar": "الاسبريسو",
+            "en": "Espresso"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3000,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 0
+        },
+        {
+          "id": "p-cvti2o",
+          "name": {
+            "ar": "الافوكادو",
+            "en": "Avocado"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 1
+        },
+        {
+          "id": "p-sbd48j",
+          "name": {
+            "ar": "فلات وايت",
+            "en": "Flat White"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 2
+        },
+        {
+          "id": "p-wwc9k4",
+          "name": {
+            "ar": "كورتادو",
+            "en": "Cortado"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 3
+        },
+        {
+          "id": "p-51zdod",
+          "name": {
+            "ar": "لاتيه كلاسيك",
+            "en": "Classic Latte"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 4
+        },
+        {
+          "id": "p-lnkjfj",
+          "name": {
+            "ar": "لاتيه جوز الهند",
+            "en": "Coconut Latte"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 5
+        },
+        {
+          "id": "p-b6j3cc",
+          "name": {
+            "ar": "لاتيه كراميل",
+            "en": "Caramel Latte"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 6
+        },
+        {
+          "id": "p-bqojco",
+          "name": {
+            "ar": "لاتيه بندق",
+            "en": "Hazelnut Latte"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 7
+        },
+        {
+          "id": "p-rx43ht",
+          "name": {
+            "ar": "لاتيه فانيلا",
+            "en": "Vanilla Latte"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 8
+        },
+        {
+          "id": "p-x9fhon",
+          "name": {
+            "ar": "روز لاتيه",
+            "en": "Rose Latte"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 9
+        },
+        {
+          "id": "p-lebgs5",
+          "name": {
+            "ar": "سبانش لاتيه",
+            "en": "Spanish Latte"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 10
+        },
+        {
+          "id": "p-gbpq06",
+          "name": {
+            "ar": "ريلود سبشالتي لاتيه",
+            "en": "Reload Speciality Latte"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4500,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 11
+        },
+        {
+          "id": "p-mfvp19",
+          "name": {
+            "ar": "دارك موكا",
+            "en": "Dark Mocha"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 12
+        },
+        {
+          "id": "p-m4u9a5",
+          "name": {
+            "ar": "وايت موكا",
+            "en": "White Mocha"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 13
+        },
+        {
+          "id": "p-zj7y7j",
+          "name": {
+            "ar": "سحلب ",
+            "en": "Sahlab"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 14
+        },
+        {
+          "id": "p-bme84d",
+          "name": {
+            "ar": "شاي عراقي ",
+            "en": "Iraqi Tea"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 1000,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 15
+        },
+        {
+          "id": "p-tvaypo",
+          "name": {
+            "ar": "شاي اخضر",
+            "en": "Green Tea"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 1500,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 16
+        },
+        {
+          "id": "p-yh7vu7",
+          "name": {
+            "ar": "شاي كرك",
+            "en": "Karak Tea"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3000,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 17
+        },
+        {
+          "id": "p-ll2yzo",
+          "name": {
+            "ar": "شاي كركديه",
+            "en": "Hibiscus Tea"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 18
+        },
+        {
+          "id": "p-c4or2f",
+          "name": {
+            "ar": "شاي ليمون ",
+            "en": "Lemonade Tea"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3000,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 19
+        },
+        {
+          "id": "p-wcxyfg",
+          "name": {
+            "ar": "شاي حليب وزعفران",
+            "en": "Saffron Milk Tea"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 2000,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 20
+        },
+        {
+          "id": "p-swwst5",
+          "name": {
+            "ar": "هوت لوتس",
+            "en": "Hot Lotus"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 21
+        },
+        {
+          "id": "p-1ypc4l",
+          "name": {
+            "ar": "هوت شوكلت ",
+            "en": "Hot Chocolate"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 22
+        },
+        {
+          "id": "p-wbt4la",
+          "name": {
+            "ar": "هوت شوكلت تيراميسو",
+            "en": "Tiramisu Hot Chocolate"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4500,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 23
+        },
+        {
+          "id": "p-mqgtvg",
+          "name": {
+            "ar": "هوت شوكلت مارشميلو",
+            "en": "Marshmallow Hot Chocolate"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4500,
+          "image": "",
+          "category": "cat-7d0cjw",
+          "available": true,
+          "extras": [],
+          "order": 24
+        }
+      ]
+    },
+    {
+      "id": "cat-eagl23",
+      "name": {
+        "ar": "المشروبات الباردة ",
+        "en": "Cold Drinks"
+      },
+      "order": 1,
+      "image": "/images/categories/photo_8_2026-08-30_19-19-45-1788106838.webp",
+      "products": [
+        {
+          "id": "p-22ki52",
+          "name": {
+            "ar": "ايس لاتيه",
+            "en": "Ice Latte"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-aiin49",
+              "name": {
+                "ar": "كولد فوم ",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 0
+        },
+        {
+          "id": "p-doen8n",
+          "name": {
+            "ar": "ايس لاتيه كراميل",
+            "en": "Caramel Ice Latte"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-3ttpts",
+              "name": {
+                "ar": "كولد فوم ",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": "p-42i3yg",
+          "name": {
+            "ar": "ايس لاتيه جوز الهند",
+            "en": "Coconut Ice Latte"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-pdvup9",
+              "name": {
+                "ar": "كولد فوم ",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 2
+        },
+        {
+          "id": "p-lv6mc4",
+          "name": {
+            "ar": "ايس لاتيه بندق",
+            "en": "Hazelnut Ice Latte"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-eoj5ee",
+              "name": {
+                "ar": "كولد فوم ",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 3
+        },
+        {
+          "id": "p-ez5nos",
+          "name": {
+            "ar": "ايس لاتيه فانيلا",
+            "en": "Vanilla Ice Latte"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-g96wib",
+              "name": {
+                "ar": "كولد فوم ",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 4
+        },
+        {
+          "id": "p-w3zykm",
+          "name": {
+            "ar": "ايس لاتيه كندر",
+            "en": "Kinder Iced Latte"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-d3f2o4",
+              "name": {
+                "ar": "كولد فوم",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 5
+        },
+        {
+          "id": "p-wmu5i4",
+          "name": {
+            "ar": "ايس لاتيه لوتس",
+            "en": "Lotus Iced Latte"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-yosliu",
+              "name": {
+                "ar": "كولد فوم",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 6
+        },
+        {
+          "id": "p-6hxnaj",
+          "name": {
+            "ar": "ايس لاتيه اوريو",
+            "en": "Oreo Iced Latte"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-rt2rne",
+              "name": {
+                "ar": "كولد فوم",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 7
+        },
+        {
+          "id": "p-htjgef",
+          "name": {
+            "ar": "ايس سبانش لاتيه",
+            "en": "Spanish Ice Latte"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-u0fmup",
+              "name": {
+                "ar": "كولد فوم ",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 8
+        },
+        {
+          "id": "p-4wasas",
+          "name": {
+            "ar": "ايس روز لاتيه",
+            "en": "Rose Ice Latte"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-ysskd0",
+              "name": {
+                "ar": "كولد فوم ",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 9
+        },
+        {
+          "id": "p-f1wsd5",
+          "name": {
+            "ar": "ايس ريلود سبشالتي",
+            "en": "Ice Reload Speciality"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4500,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-ddk1z5",
+              "name": {
+                "ar": "كولد فوم ",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 10
+        },
+        {
+          "id": "p-9qj284",
+          "name": {
+            "ar": "ايس موكا دارك",
+            "en": "Ice Dark Mocha"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-2cs9h9",
+              "name": {
+                "ar": "كولد فوم ",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 11
+        },
+        {
+          "id": "p-5jo8h2",
+          "name": {
+            "ar": "ايس موكا وايت",
+            "en": "Ice White Mocha"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-bn1dgz",
+              "name": {
+                "ar": "كولد فوم ",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 12
+        },
+        {
+          "id": "p-5evpz9",
+          "name": {
+            "ar": "ايس موكا سويت",
+            "en": "Ice Sweet Mocha"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-zpbbu9",
+              "name": {
+                "ar": "كولد فوم ",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 13
+        },
+        {
+          "id": "p-s0bp46",
+          "name": {
+            "ar": "ايس شوكلت",
+            "en": "Ice Chocolate"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-xeehnt",
+              "name": {
+                "ar": "كولد فوم ",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 14
+        },
+        {
+          "id": "p-65tma6",
+          "name": {
+            "ar": "ايس بستاشيو",
+            "en": "Ice Pistachio"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [],
+          "order": 15
+        },
+        {
+          "id": "p-679zfw",
+          "name": {
+            "ar": "ايس تي ليمون",
+            "en": "Iced Lemon Tea"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-slf5yb",
+              "name": {
+                "ar": "بابلز ",
+                "en": "Bubbles"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 16
+        },
+        {
+          "id": "p-17r9l4",
+          "name": {
+            "ar": "ايس تي خوخ",
+            "en": "Iced Peach Tea"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-ht6vlj",
+              "name": {
+                "ar": "بابلز ",
+                "en": "Bubbles"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 17
+        },
+        {
+          "id": "p-owj1fg",
+          "name": {
+            "ar": "ايس تي توت",
+            "en": "Iced Berry Tea"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-slnhye",
+              "name": {
+                "ar": "بابلز ",
+                "en": "Bubbles"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 18
+        },
+        {
+          "id": "p-s6ahec",
+          "name": {
+            "ar": "ايس تي كركديه",
+            "en": "Iced Hibiscus Tea"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-2q8ll0",
+              "name": {
+                "ar": "بابلز ",
+                "en": "Bubbles"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 19
+        },
+        {
+          "id": "p-uocap4",
+          "name": {
+            "ar": "ايس تي فراولة",
+            "en": "Iced Strawberry Tea"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-rsv72m",
+              "name": {
+                "ar": "بابلز ",
+                "en": "Bubbles "
+              },
+              "price": 1000
+            }
+          ],
+          "order": 20
+        },
+        {
+          "id": "p-3skdqv",
+          "name": {
+            "ar": "ايس تي كرك",
+            "en": "Iced Karak Tea"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-ax7qxq",
+              "name": {
+                "ar": "بابلز ",
+                "en": "Bubbles"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 21
+        },
+        {
+          "id": "p-0adneu",
+          "name": {
+            "ar": "ايس كركديه",
+            "en": "Iced Hibiscus"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [],
+          "order": 22
+        },
+        {
+          "id": "p-a25jj9",
+          "name": {
+            "ar": "ايس كركديه باشن فروت",
+            "en": "Iced Hibiscus Passion Fruit"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [],
+          "order": 23
+        },
+        {
+          "id": "p-i139e4",
+          "name": {
+            "ar": "ايس كركديه رمان",
+            "en": "Iced Hibiscus Pomegranate"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [],
+          "order": 24
+        },
+        {
+          "id": "p-dz2k91",
+          "name": {
+            "ar": "ايس كركديه مانجو",
+            "en": "Iced Hibiscus Mango"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [],
+          "order": 25
+        },
+        {
+          "id": "p-uztmf3",
+          "name": {
+            "ar": "ايس كركديه فراولة",
+            "en": "Iced Hibiscus Strawberry"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [],
+          "order": 26
+        },
+        {
+          "id": "p-zbrh0k",
+          "name": {
+            "ar": "ايس كركديه توت ",
+            "en": "Iced Hibiscus Berry "
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [],
+          "order": 27
+        },
+        {
+          "id": "p-zooj4l",
+          "name": {
+            "ar": "ايس كركديه ليمون نعناع",
+            "en": "Iced Hibiscus Mint & Lemon"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [],
+          "order": 28
+        },
+        {
+          "id": "p-i0ojjc",
+          "name": {
+            "ar": "ايس ماتشا لاتيه",
+            "en": "Ice Matcha Latte "
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 6000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-o6ci56",
+              "name": {
+                "ar": "كولد فوم ",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 29
+        },
+        {
+          "id": "p-aswwij",
+          "name": {
+            "ar": "ايس ماتشا فراولة",
+            "en": "Ice Matcha Strawberry"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 6000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-atxlmo",
+              "name": {
+                "ar": "كولد فوم ",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 30
+        },
+        {
+          "id": "p-hp1psv",
+          "name": {
+            "ar": "ايس ماتشا فانيلا",
+            "en": "Ice Matcha Vanilla"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 6000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-cm8ikj",
+              "name": {
+                "ar": "كولد فوم",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 31
+        },
+        {
+          "id": "p-1t5xuz",
+          "name": {
+            "ar": "ايس ماتشا جوز الهند",
+            "en": "Ice Matcha Coconut"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 6000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-bawdk2",
+              "name": {
+                "ar": "كولد فوم",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 32
+        },
+        {
+          "id": "p-m21w1j",
+          "name": {
+            "ar": "ايس ماتشا كراميل",
+            "en": "Ice Matcha Caramel"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 6000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-yolcgi",
+              "name": {
+                "ar": "كولد فوم ",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 33
+        },
+        {
+          "id": "p-i37lze",
+          "name": {
+            "ar": "ايس ماتشا بلوبيري",
+            "en": "Ice Matcha BlueBerry"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 6000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-m8n54p",
+              "name": {
+                "ar": "كولد فوم ",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 34
+        },
+        {
+          "id": "p-3get8b",
+          "name": {
+            "ar": "V60",
+            "en": "V60"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-fel27j",
+              "name": {
+                "ar": "كولد فوم",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 35
+        },
+        {
+          "id": "p-63c35l",
+          "name": {
+            "ar": "كولد برو",
+            "en": "Cold Brew"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-uni2x0",
+              "name": {
+                "ar": "كولد فوم ",
+                "en": "Cold Foam"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 36
+        },
+        {
+          "id": "p-fl4jzj",
+          "name": {
+            "ar": "مكس بيري ",
+            "en": "Mix Berry"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-eagl23",
+          "available": true,
+          "extras": [],
+          "order": 37
+        }
+      ]
+    },
+    {
+      "id": "cat-78d3f1",
+      "name": {
+        "ar": "السموذي",
+        "en": "Smoothie"
+      },
+      "order": 2,
+      "image": "/images/categories/photo_2_2026-08-30_19-19-45-1788106858.webp",
+      "products": [
+        {
+          "id": "p-2i3ie1",
+          "name": {
+            "ar": "سموذي فراولة",
+            "en": "Strawberry Smoothie"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-78d3f1",
+          "available": true,
+          "extras": [],
+          "order": 0
+        },
+        {
+          "id": "p-2f9hhb",
+          "name": {
+            "ar": "سموذي موز فراولة",
+            "en": "Strawberry & Banana Smoothie"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-78d3f1",
+          "available": true,
+          "extras": [],
+          "order": 1
+        },
+        {
+          "id": "p-j8jclw",
+          "name": {
+            "ar": "سموذي مانجو",
+            "en": "Mango Smoothie"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-78d3f1",
+          "available": true,
+          "extras": [],
+          "order": 2
+        },
+        {
+          "id": "p-ufdkkj",
+          "name": {
+            "ar": "سموذي باشن فروت",
+            "en": "Passion Fruit Smoothie"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-78d3f1",
+          "available": true,
+          "extras": [],
+          "order": 3
+        },
+        {
+          "id": "p-uczb9p",
+          "name": {
+            "ar": "سموذي توت ازرق",
+            "en": "BlueBerry Smoothie"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-78d3f1",
+          "available": true,
+          "extras": [],
+          "order": 4
+        },
+        {
+          "id": "p-41irye",
+          "name": {
+            "ar": "سموذي مانجو انناس",
+            "en": "Mango & Pineapple Smoothie"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4500,
+          "image": "",
+          "category": "cat-78d3f1",
+          "available": true,
+          "extras": [],
+          "order": 5
+        },
+        {
+          "id": "p-dmigi5",
+          "name": {
+            "ar": "سبشالتي ريلود سموذي",
+            "en": "Reload Speciality Smoothie"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4500,
+          "image": "",
+          "category": "cat-78d3f1",
+          "available": true,
+          "extras": [],
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "cat-1in5br",
+      "name": {
+        "ar": "العصائر الطبيعية",
+        "en": "Fresh Juices"
+      },
+      "order": 3,
+      "image": "/images/categories/photo_9_2026-08-30_19-19-45-1788106866.webp",
+      "products": [
+        {
+          "id": "p-pfdcfv",
+          "name": {
+            "ar": "عصير برتقال",
+            "en": "Orange Juice"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3000,
+          "image": "",
+          "category": "cat-1in5br",
+          "available": true,
+          "extras": [],
+          "order": 0
+        },
+        {
+          "id": "p-u1k5ka",
+          "name": {
+            "ar": "عصير برتقال وليمون",
+            "en": "Lemon & Orange Juice"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3000,
+          "image": "",
+          "category": "cat-1in5br",
+          "available": true,
+          "extras": [],
+          "order": 1
+        },
+        {
+          "id": "p-7jn0fw",
+          "name": {
+            "ar": "عصير موز وحليب",
+            "en": "Milk & Banana Juice"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3000,
+          "image": "",
+          "category": "cat-1in5br",
+          "available": true,
+          "extras": [],
+          "order": 2
+        },
+        {
+          "id": "p-ivntqa",
+          "name": {
+            "ar": "عصير ليمون ",
+            "en": "Lemon Juice"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3000,
+          "image": "",
+          "category": "cat-1in5br",
+          "available": true,
+          "extras": [],
+          "order": 3
+        },
+        {
+          "id": "p-7k6p22",
+          "name": {
+            "ar": "عصير ليمون نعناع",
+            "en": "Lemon & Mint Juice"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3000,
+          "image": "",
+          "category": "cat-1in5br",
+          "available": true,
+          "extras": [],
+          "order": 4
+        },
+        {
+          "id": "p-9bhovh",
+          "name": {
+            "ar": "عصير انناس",
+            "en": "Pineapple Juice"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3000,
+          "image": "",
+          "category": "cat-1in5br",
+          "available": true,
+          "extras": [],
+          "order": 5
+        },
+        {
+          "id": "p-hmvaq0",
+          "name": {
+            "ar": "عصير فراولة",
+            "en": "Strawberry Juice"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-1in5br",
+          "available": true,
+          "extras": [],
+          "order": 6
+        },
+        {
+          "id": "p-szzhl3",
+          "name": {
+            "ar": "عصير خوخ ",
+            "en": "Peach Juice"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-1in5br",
+          "available": true,
+          "extras": [],
+          "order": 7
+        },
+        {
+          "id": "p-lb7q6y",
+          "name": {
+            "ar": "عصير كيوي",
+            "en": "Kiwi Juice"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-1in5br",
+          "available": true,
+          "extras": [],
+          "order": 8
+        },
+        {
+          "id": "p-pyjdjz",
+          "name": {
+            "ar": "عصير مانجو",
+            "en": "Mango Juice"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-1in5br",
+          "available": true,
+          "extras": [],
+          "order": 9
+        },
+        {
+          "id": "p-wa6atp",
+          "name": {
+            "ar": "عصير بطيخ",
+            "en": "Melon Juice"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-1in5br",
+          "available": true,
+          "extras": [],
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "cat-q8kdfh",
+      "name": {
+        "ar": "الكوكتيل ",
+        "en": "Fruit Mocktail Juice"
+      },
+      "order": 4,
+      "image": "/images/categories/image-1788105955.webp",
+      "products": [
+        {
+          "id": "p-3krljg",
+          "name": {
+            "ar": "تروبيكال بومب",
+            "en": "Tropical Bomb"
+          },
+          "description": {
+            "ar": "مانجو - انناس - ليمون - برتقال",
+            "en": "Mango - Pineapple - Lemon - Orange"
+          },
+          "price": 4500,
+          "image": "",
+          "category": "cat-q8kdfh",
+          "available": true,
+          "extras": [],
+          "order": 0
+        },
+        {
+          "id": "p-ytjyv4",
+          "name": {
+            "ar": "ريد فيوجن",
+            "en": "Red Fusion"
+          },
+          "description": {
+            "ar": "فراولة - ركي - رمان - ليمون",
+            "en": "Strawberry - Watermelon - Pomegranate - Lemon"
+          },
+          "price": 4500,
+          "image": "",
+          "category": "cat-q8kdfh",
+          "available": true,
+          "extras": [],
+          "order": 1
+        },
+        {
+          "id": "p-c56tf5",
+          "name": {
+            "ar": "جرين فروت ",
+            "en": "Green Fruit"
+          },
+          "description": {
+            "ar": "كيوي - تفاح اخضر - ليمون",
+            "en": "Kiwi - Green Apple - Lemon"
+          },
+          "price": 4500,
+          "image": "",
+          "category": "cat-q8kdfh",
+          "available": true,
+          "extras": [],
+          "order": 2
+        },
+        {
+          "id": "p-wm513m",
+          "name": {
+            "ar": "كوكونات باينبل",
+            "en": "Coconut Pineapple"
+          },
+          "description": {
+            "ar": "انناس - جوز الهند - خوخ",
+            "en": "Pineapple - Coconut - Peach"
+          },
+          "price": 4500,
+          "image": "",
+          "category": "cat-q8kdfh",
+          "available": true,
+          "extras": [],
+          "order": 3
+        },
+        {
+          "id": "p-eta1iq",
+          "name": {
+            "ar": "سبشالتي ريلود",
+            "en": "Reload Speciality Mocktail"
+          },
+          "description": {
+            "ar": "كوكتيل ريلود المنعش",
+            "en": "Reload Speciality Fresh Mocktail"
+          },
+          "price": 4500,
+          "image": "",
+          "category": "cat-q8kdfh",
+          "available": true,
+          "extras": [],
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "cat-n6skai",
+      "name": {
+        "ar": "الموهيتو",
+        "en": "Mojito"
+      },
+      "order": 5,
+      "image": "/images/categories/photo_7_2026-08-30_19-19-45-1788106881.webp",
+      "products": [
+        {
+          "id": "p-9lgo3s",
+          "name": {
+            "ar": "موهيتو فراولة",
+            "en": "Strawberry Mojito"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-n6skai",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-imdiax",
+              "name": {
+                "ar": "بابلز ",
+                "en": "Bubbles"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 0
+        },
+        {
+          "id": "p-v85xof",
+          "name": {
+            "ar": "موهيتو مانجو",
+            "en": "Mango Mojito"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-n6skai",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-pcjs2x",
+              "name": {
+                "ar": "بابلز ",
+                "en": "Bubbles"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": "p-7fx8zp",
+          "name": {
+            "ar": "موهيتو رمان",
+            "en": "Pomegranate Mojito"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-n6skai",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-jaaaxb",
+              "name": {
+                "ar": "بابلز ",
+                "en": "Bubbles"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 2
+        },
+        {
+          "id": "p-j9m2en",
+          "name": {
+            "ar": "موهيتو انناس",
+            "en": "Pineapple Mojito"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-n6skai",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-xa2pnk",
+              "name": {
+                "ar": "بابلز ",
+                "en": "Bubbles"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 3
+        },
+        {
+          "id": "p-5ro89r",
+          "name": {
+            "ar": "موهيتو خوخ",
+            "en": "Peach Mojito"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-n6skai",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-vslt7d",
+              "name": {
+                "ar": "بابلز ",
+                "en": "Bubbles "
+              },
+              "price": 1000
+            }
+          ],
+          "order": 4
+        },
+        {
+          "id": "p-c2dwsf",
+          "name": {
+            "ar": "موهيتو علكة",
+            "en": "Bubble Gum Mojito"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-n6skai",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-kr80it",
+              "name": {
+                "ar": "بابلز ",
+                "en": "Bubbles"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 5
+        },
+        {
+          "id": "p-l8zs0u",
+          "name": {
+            "ar": "موهيتو توت ازرق",
+            "en": "BlueBerry Mojito"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-n6skai",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-wqgiln",
+              "name": {
+                "ar": "بابلز ",
+                "en": "Bubbles "
+              },
+              "price": 1000
+            }
+          ],
+          "order": 7
+        },
+        {
+          "id": "p-3r8fjv",
+          "name": {
+            "ar": "موهيتو بلو",
+            "en": "Blue Mojito"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-n6skai",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-dkochq",
+              "name": {
+                "ar": "بابلز ",
+                "en": "Bubbles"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 8
+        },
+        {
+          "id": "p-kxfyvq",
+          "name": {
+            "ar": "موهيتو ليمون نعناع",
+            "en": "Lemon & Mint Mojito"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-n6skai",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-qouynt",
+              "name": {
+                "ar": "بابلز ",
+                "en": "Bubbles"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 9
+        },
+        {
+          "id": "p-cxed2e",
+          "name": {
+            "ar": "موهيتو ريلود",
+            "en": "Reload Mojito"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-n6skai",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-jot2jm",
+              "name": {
+                "ar": "بابلز ",
+                "en": "Bubbles"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 10
+        },
+        {
+          "id": "p-jqg4x2",
+          "name": {
+            "ar": "موهيتو ركي",
+            "en": "Watermelon Mojito"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-n6skai",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-6nsoub",
+              "name": {
+                "ar": "بابلز ",
+                "en": "Bubbles "
+              },
+              "price": 1000
+            }
+          ],
+          "order": 11
+        },
+        {
+          "id": "p-3qgdql",
+          "name": {
+            "ar": "موهيتو تايجر",
+            "en": "Tiger Mojito"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-n6skai",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-rmgvva",
+              "name": {
+                "ar": "بابلز ",
+                "en": "Bubbles"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 12
+        },
+        {
+          "id": "p-uzco5t",
+          "name": {
+            "ar": "موهيتو ريدبول",
+            "en": "RedBull Mojito"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 6000,
+          "image": "",
+          "category": "cat-n6skai",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-ryjljt",
+              "name": {
+                "ar": "بابلز ",
+                "en": "Bubbles"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 13
+        }
+      ]
+    },
+    {
+      "id": "cat-z3j3ej",
+      "name": {
+        "ar": "الساندويش",
+        "en": "Sandwich"
+      },
+      "order": 6,
+      "image": "/images/categories/photo_1_2026-08-30_19-19-45-1788106898.webp",
+      "products": [
+        {
+          "id": "p-wznqje",
+          "name": {
+            "ar": "ساندويش حلوم",
+            "en": "Halloumi Sandwich"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-z3j3ej",
+          "available": true,
+          "extras": [],
+          "order": 0
+        },
+        {
+          "id": "p-y67zjj",
+          "name": {
+            "ar": "ساندويش مارتديلا",
+            "en": "Mortadella Sandwich"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-z3j3ej",
+          "available": true,
+          "extras": [],
+          "order": 1
+        },
+        {
+          "id": "p-in12cy",
+          "name": {
+            "ar": "ساندويش فاهيتا",
+            "en": "Fajita Sandwich"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-z3j3ej",
+          "available": true,
+          "extras": [],
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "cat-ek14mv",
+      "name": {
+        "ar": "السلطات",
+        "en": "Salad"
+      },
+      "order": 7,
+      "image": "/images/categories/photo_4_2026-08-30_19-19-45-1788106904.webp",
+      "products": [
+        {
+          "id": "p-3p6h74",
+          "name": {
+            "ar": "كلاسيك سلط",
+            "en": "Classic Salad"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 6000,
+          "image": "",
+          "category": "cat-ek14mv",
+          "available": true,
+          "extras": [],
+          "order": 0
+        },
+        {
+          "id": "p-6y421a",
+          "name": {
+            "ar": "سلطة فواكه",
+            "en": "Fruit Salad"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 6000,
+          "image": "",
+          "category": "cat-ek14mv",
+          "available": true,
+          "extras": [],
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "cat-uk3pyv",
+      "name": {
+        "ar": "الحلويات ",
+        "en": "Sweets"
+      },
+      "order": 8,
+      "image": "/images/categories/photo_6_2026-08-30_19-19-45-1788106914.webp",
+      "products": [
+        {
+          "id": "p-pucgsc",
+          "name": {
+            "ar": "سان سباستيان",
+            "en": "San Sebastián"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 6000,
+          "image": "",
+          "category": "cat-uk3pyv",
+          "available": true,
+          "extras": [],
+          "order": 0
+        },
+        {
+          "id": "p-pbmjxo",
+          "name": {
+            "ar": "تيراميسو",
+            "en": "Tiramisu"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4000,
+          "image": "",
+          "category": "cat-uk3pyv",
+          "available": true,
+          "extras": [],
+          "order": 1
+        },
+        {
+          "id": "p-tz6t4y",
+          "name": {
+            "ar": "براونيز",
+            "en": "Brownies"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-uk3pyv",
+          "available": true,
+          "extras": [],
+          "order": 2
+        },
+        {
+          "id": "p-9vlacl",
+          "name": {
+            "ar": "تشيز كيك",
+            "en": "Cheese Cake"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 6000,
+          "image": "",
+          "category": "cat-uk3pyv",
+          "available": true,
+          "extras": [],
+          "order": 3
+        },
+        {
+          "id": "p-py7rws",
+          "name": {
+            "ar": "سكوب كوكيز",
+            "en": "Cookies Scoop"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 3500,
+          "image": "",
+          "category": "cat-uk3pyv",
+          "available": true,
+          "extras": [],
+          "order": 4
+        },
+        {
+          "id": "p-35bm55",
+          "name": {
+            "ar": "فنكر كوكيز",
+            "en": "Cookies Finger"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 0,
+          "image": "",
+          "category": "cat-uk3pyv",
+          "available": true,
+          "extras": [],
+          "order": 5
+        },
+        {
+          "id": "p-4sh96i",
+          "name": {
+            "ar": "دونات",
+            "en": "Donut"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 2000,
+          "image": "",
+          "category": "cat-uk3pyv",
+          "available": true,
+          "extras": [],
+          "order": 6
+        },
+        {
+          "id": "p-kd29qe",
+          "name": {
+            "ar": "لندن كيك",
+            "en": "London Cake"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5500,
+          "image": "",
+          "category": "cat-uk3pyv",
+          "available": true,
+          "extras": [],
+          "order": 7
+        },
+        {
+          "id": "p-zl2da1",
+          "name": {
+            "ar": "ماتيلدا كيك",
+            "en": "Matilda Cake"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 6000,
+          "image": "",
+          "category": "cat-uk3pyv",
+          "available": true,
+          "extras": [],
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "cat-rjfskc",
+      "name": {
+        "ar": "البان كيك",
+        "en": "Pancakes"
+      },
+      "order": 10,
+      "image": "/images/categories/photo_3_2026-08-30_19-19-45-1788106923.webp",
+      "products": [
+        {
+          "id": "p-evyp7p",
+          "name": {
+            "ar": "ميني بان كيك نوتيلا",
+            "en": "Mini Nutella Pancakes"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-rjfskc",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-uluoqc",
+              "name": {
+                "ar": "ايسكريم فانيلا",
+                "en": "Vanilla Ice Cream"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 0
+        },
+        {
+          "id": "p-0bhrh2",
+          "name": {
+            "ar": "ميني بان كيك لوتس",
+            "en": "Mini Lotus Pancakes"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-rjfskc",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-pggjkf",
+              "name": {
+                "ar": "ايسكريم فانيلا ",
+                "en": "Vanilla Ice Cream"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": "p-pk3nj4",
+          "name": {
+            "ar": "ميني بان كيك بستاشيو",
+            "en": "Mini Pistachio Pancakes"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-rjfskc",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-7e0gmk",
+              "name": {
+                "ar": "ايسكريم فانيلا ",
+                "en": "Vanilla Ice Cream "
+              },
+              "price": 1000
+            }
+          ],
+          "order": 2
+        },
+        {
+          "id": "p-2hn4dk",
+          "name": {
+            "ar": "ميني بان كيك كندر",
+            "en": "Mini Kinder Pancakes "
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-rjfskc",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-4wqzob",
+              "name": {
+                "ar": "ايسكريم فانيلا",
+                "en": "Vanilla Ice Cream"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 3
+        },
+        {
+          "id": "p-e99yq8",
+          "name": {
+            "ar": "ميني بان كيك بالصوص البلجيكي",
+            "en": "Mini Belgium Sauce Pancakes"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-rjfskc",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-w79pc6",
+              "name": {
+                "ar": "ايسكريم فانيلا ",
+                "en": "Vanilla Ice Cream"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 4
+        },
+        {
+          "id": "p-1l3ind",
+          "name": {
+            "ar": "ميني بان كيك فواكه",
+            "en": "Mini Fruits Pancakes"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 6000,
+          "image": "",
+          "category": "cat-rjfskc",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-36budn",
+              "name": {
+                "ar": "ايسكريم فانيلا ",
+                "en": "Vanilla Ice Cream"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 5
+        },
+        {
+          "id": "p-hs6rp4",
+          "name": {
+            "ar": "بان كيك نوتيلا",
+            "en": "Nutella Pancakes"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-rjfskc",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-6ud66v",
+              "name": {
+                "ar": "ايسكريم فانيلا",
+                "en": "Vanilla Ice Cream "
+              },
+              "price": 1000
+            }
+          ],
+          "order": 6
+        },
+        {
+          "id": "p-ikqhoz",
+          "name": {
+            "ar": "بان كيك لوتس",
+            "en": "Lotus Pancakes"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-rjfskc",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-faxf5u",
+              "name": {
+                "ar": "ايسكريم فانيلا",
+                "en": "Vanilla Ice Cream"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 7
+        },
+        {
+          "id": "p-ekwpx3",
+          "name": {
+            "ar": "بان كيك بستاشيو",
+            "en": "Pistachio Pancakes"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-rjfskc",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-lrclbf",
+              "name": {
+                "ar": "ايسكريم فانيلا",
+                "en": "Vanilla Ice Cream"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 8
+        },
+        {
+          "id": "p-37jobg",
+          "name": {
+            "ar": "بان كيك كندر",
+            "en": "Kinder Pancakes"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-rjfskc",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-gd8m20",
+              "name": {
+                "ar": "ايسكريم فانيلا ",
+                "en": "Vanilla Ice Cream "
+              },
+              "price": 1000
+            }
+          ],
+          "order": 9
+        },
+        {
+          "id": "p-yiz7rj",
+          "name": {
+            "ar": "بان كيك بالصوص البلجيكي",
+            "en": "Belgium Sauce Pancakes"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-rjfskc",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-hm3dgk",
+              "name": {
+                "ar": "ايسكريم فانيلا ",
+                "en": "Vanilla Ice Cream "
+              },
+              "price": 1000
+            }
+          ],
+          "order": 10
+        },
+        {
+          "id": "p-guy94w",
+          "name": {
+            "ar": "بان كيك فواكه",
+            "en": "Fruits Pancakes"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 6000,
+          "image": "",
+          "category": "cat-rjfskc",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-afieix",
+              "name": {
+                "ar": "ايسكريم فانيلا",
+                "en": "Vanilla Pancakes"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 11
+        }
+      ]
+    },
+    {
+      "id": "cat-qknbmn",
+      "name": {
+        "ar": "الكريب ",
+        "en": "Crepe"
+      },
+      "order": 10,
+      "image": "/images/categories/photo_10_2026-08-30_19-19-45-1788106936.webp",
+      "products": [
+        {
+          "id": "p-lbcjs0",
+          "name": {
+            "ar": "كريب نوتيلا",
+            "en": "Nutella Crepe"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-qknbmn",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-k6zvtl",
+              "name": {
+                "ar": "ايسكريم فانيلا",
+                "en": "Vanilla Ice Cream"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 0
+        },
+        {
+          "id": "p-6jw7m0",
+          "name": {
+            "ar": "كريب لوتس",
+            "en": "Lotus Crepe"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-qknbmn",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-zzho7n",
+              "name": {
+                "ar": "ايسكريم فانيلا",
+                "en": "Vanilla Ice Cream"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": "p-gl16dc",
+          "name": {
+            "ar": "كريب بستاشيو",
+            "en": "Pistachio Crepe"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-qknbmn",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-oww4gb",
+              "name": {
+                "ar": "ايسكريم فانيلا",
+                "en": "Vanilla Ice Cream"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 2
+        },
+        {
+          "id": "p-9vzyn9",
+          "name": {
+            "ar": "كريب كندر",
+            "en": "Kinder Crepe"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-qknbmn",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-f12sg2",
+              "name": {
+                "ar": "ايسكريم فانيلا",
+                "en": "Vanilla Ice Cream"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 3
+        },
+        {
+          "id": "p-x3o7xq",
+          "name": {
+            "ar": "كريب بالصوص البلجيكي",
+            "en": "Belgium Sauce Crepe"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-qknbmn",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-fg0yld",
+              "name": {
+                "ar": "ايسكريم فانيلا",
+                "en": "Vanilla Ice Cream"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 4
+        },
+        {
+          "id": "p-j4b443",
+          "name": {
+            "ar": "كريب فواكه",
+            "en": "Fruits Crepe"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 6000,
+          "image": "",
+          "category": "cat-qknbmn",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-72bs9o",
+              "name": {
+                "ar": "ايسكريم فانيلا ",
+                "en": "Vanilla Ice Cream "
+              },
+              "price": 1000
+            }
+          ],
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "cat-q6bbhu",
+      "name": {
+        "ar": "الوافل ",
+        "en": "Waffle"
+      },
+      "order": 11,
+      "image": "/images/categories/photo_5_2026-08-30_19-19-45-1788106944.webp",
+      "products": [
+        {
+          "id": "p-3x1vb1",
+          "name": {
+            "ar": "وافل نوتيلا",
+            "en": "Nutella Waffle"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-q6bbhu",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-l5ztbs",
+              "name": {
+                "ar": "ايسكريم فانيلا",
+                "en": "Vanilla Ice Cream"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 0
+        },
+        {
+          "id": "p-g5i0dc",
+          "name": {
+            "ar": "وافل لوتس",
+            "en": "Lotus Waffle"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-q6bbhu",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-ysw1py",
+              "name": {
+                "ar": "ايسكريم فانيلا",
+                "en": "Vanilla Ice Cream"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": "p-z5rvsv",
+          "name": {
+            "ar": "وافل بستاشيو",
+            "en": "Pistachio Waffle"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-q6bbhu",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-sx7p2t",
+              "name": {
+                "ar": "ايسكريم فانيلا",
+                "en": "Vanilla Ice Cream"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 2
+        },
+        {
+          "id": "p-f00oad",
+          "name": {
+            "ar": "وافل كندر",
+            "en": "Kinder Waffle"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-q6bbhu",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-ipa1ne",
+              "name": {
+                "ar": "ايسكريم فانيلا",
+                "en": "Vanilla Ice Cream"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 3
+        },
+        {
+          "id": "p-d478se",
+          "name": {
+            "ar": "وافل بالصوص البلجيكي",
+            "en": "Belgium Sauce Waffle"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 5000,
+          "image": "",
+          "category": "cat-q6bbhu",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-6nlhht",
+              "name": {
+                "ar": "ايسكريم فانيلا ",
+                "en": "Vanilla Ice Cream"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 4
+        },
+        {
+          "id": "p-l3pt3b",
+          "name": {
+            "ar": "وافل فواكه",
+            "en": "Fruits Waffle"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 6000,
+          "image": "",
+          "category": "cat-q6bbhu",
+          "available": true,
+          "extras": [
+            {
+              "id": "x-5riqcp",
+              "name": {
+                "ar": "ايسكريم فانيلا ",
+                "en": "Vanilla Ice Cream"
+              },
+              "price": 1000
+            }
+          ],
+          "order": 5
+        }
+      ]
+    }
+  ]
+}
