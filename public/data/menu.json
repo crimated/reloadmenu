@@ -2404,6 +2404,57 @@
           "available": true,
           "extras": [],
           "order": 8
+        },
+        {
+          "id": "p-jturpa",
+          "name": {
+            "ar": "رول سينابون كلاسيك",
+            "en": "Classic Cinnabon Roll"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4500,
+          "image": "",
+          "category": "cat-uk3pyv",
+          "available": true,
+          "extras": [],
+          "order": 8
+        },
+        {
+          "id": "p-1rjemy",
+          "name": {
+            "ar": "كيك بالقهوة",
+            "en": "Coffee Cake"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 4500,
+          "image": "",
+          "category": "cat-uk3pyv",
+          "available": true,
+          "extras": [],
+          "order": 9
+        },
+        {
+          "id": "p-byxjvh",
+          "name": {
+            "ar": "كيك نوتيلا",
+            "en": "Nutella Cake"
+          },
+          "description": {
+            "ar": "",
+            "en": ""
+          },
+          "price": 6000,
+          "image": "",
+          "category": "cat-uk3pyv",
+          "available": true,
+          "extras": [],
+          "order": 10
         }
       ]
     },
